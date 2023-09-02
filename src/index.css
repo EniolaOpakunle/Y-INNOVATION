@@ -1,0 +1,18 @@
+:root{
+  --primaryColor : rgba(255, 255, 255, 1);
+  --secondaryColor1:rgba(100, 213, 247, 1) ;
+  --secondaryColor2: rgba(4, 3, 64, 1) ;
+  --width: 90%;
+  --backgroundColor: rgba(4, 3, 64, 1);
+}
+body{
+  width: 100%;
+}
+.size{
+  width: var(--width);
+  margin: auto;
+}
+.button1{
+  background-image: linear-gradient(to right, rgba(90, 116, 252, 1),rgba(95, 161, 250, 1),rgba(129, 28, 146, 1));
+  border: none;
+}
