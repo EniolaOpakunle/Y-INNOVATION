@@ -21,7 +21,7 @@ function About() {
               <p>Y INNOVATIONS is emulating companies like SpaceX, X(twitter) and a few other firms to become the next technologically advanced firm</p>
             </div>
             <div className='mt-5'>
-              <h4 className='secondaryColor1 title'>WHAT WE OFFER</h4>
+              <h4 className='title'>WHAT WE OFFER</h4>
               <h3>Y INNOVATIONS STARTING UTILITIES</h3>
               <p>As we have said earlier, we are not your regular token that builds its utility to pump up price, we offer innovative utilities that solve real problems</p>
               <p>All our utilites basically aim to profit our investors and ensure they are endlessly rewarded for being a part of Y INNOVATIONS</p>

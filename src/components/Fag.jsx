@@ -1,10 +1,10 @@
 import React from 'react'
 
 function Fag() {
-  return (<div className='py-5 fag text-light' id='fag'>
+  return (<div className='fag text-light' id='fag'>
   <div className='size'>
-    <p className='text-center'>QUESTIONS AND ANSWERS</p>
-    <h1 className='text-center subtitle'>FREQUENTLY ASKED QUESTIONS</h1>
+    <p className='text-center title1'>FREQUENTLY ASKED QUESTIONS</p>
+    <h1 className='text-center title2'>QUESTIONS AND ANSWERS</h1>
     <div className='row mt-5 '>
     <div className='col-lg-6 py-2'>
           <div className="d-flex justify-content-space-between box p-3">

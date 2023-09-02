@@ -4,8 +4,8 @@ function Roadmap() {
   return (
     <div className='roadmap text-light' id='roadmap'>
         <div className='size'>
-          <p className='text-center'>ROADMAP</p>
-          <h1 className='text-center title'>HOW IT ALL STARTED</h1>
+          <p className='text-center title1'>ROADMAP</p>
+          <h1 className='text-center title2'>HOW IT ALL STARTED</h1>
           <div className=''>
             <div className='row mt-5 '>
                 <div className='col-lg-3 px-4'>
