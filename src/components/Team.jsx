@@ -13,9 +13,8 @@ function Team() {
         <div className='size text-left'>
           <p className='text-center title1'>TEAM MEMBER</p>  
           <h1 className='text-center title2'>MEET THE CREW</h1>
-          <div className='row mt-5'>
+          <div className='row mt-5 '>
                 <div className='col-lg-4 p-4'>
-                    {/* <div className={`row align-items-center box p-3 slide-div ${inView ? 'slide-in' : 'slide-out'}`} ref={ref}> */}
                     <div className=' align-items-center box p-3'>
                         <div className="">
                             <img src={yop} alt="" className='w-100' />

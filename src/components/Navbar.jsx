@@ -37,8 +37,8 @@ function Navbar() {
                     </li>
                     </ul>
                     <div className='nav-buttons d-flex'> 
-                        <p className='mx-4'><button className='nav-btn btn px-5 button1 title' type="submit">JOIN US <img src={joinImg} alt="" /></button></p>
-                        <p><button className='nav-btn btn px-5 button1 title'>STAKE <img src={stakeImg} alt="" style={{width: "19px"}} /></button></p>
+                        <p className='mx-4'><button className='nav-btn btn px-5 button1' type="submit">JOIN US <img src={joinImg} alt="" /></button></p>
+                        <p><button className='nav-btn btn px-5 button1'>STAKE <img src={stakeImg} alt="" style={{width: "19px"}} /></button></p>
                     </div>
                 </div>
             </div>
