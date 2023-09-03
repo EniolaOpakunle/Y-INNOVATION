@@ -195,12 +195,6 @@ nav li a{
 .community .title2{
   font-weight: 500;
 }
-
-/* merchandise */
-.merchandise .section{
-  background-color: var(--backgroundColor) !important;
-}
-
 /* footer */
 .footer{
   background-image: linear-gradient(rgb(4, 3, 64), rgba(4, 3, 64, 0.836)),  url('./assets/images/footer.png');

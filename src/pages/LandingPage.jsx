@@ -18,7 +18,6 @@ function LandingPage() {
         <Team/>
         <Fag/>
         <Community/>
-        {/* <Partners/> */}
         <Footer/>
     </div>
   )
