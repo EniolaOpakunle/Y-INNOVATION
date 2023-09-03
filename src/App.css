@@ -175,7 +175,7 @@ nav li a{
   border-top: thin solid rgba(2, 64, 184, 1);
 }
 
-@media (max-width: 415px){
+@media (min-width: 375px){
   .size{
     width: 90% !important;
     margin: auto;
@@ -292,6 +292,12 @@ nav li a{
   .about .div2{
     padding: 0 !important;
   }
+  .about .btn-div{
+    justify-content: space-between;
+  }
+  .about .btn1, .about .button1{
+    padding: 6px 15px 6px 15px !important;
+  }
   .about .button1{
     margin: 0 !important ;
   }
@@ -389,4 +395,17 @@ nav li a{
   .attribution{
     border-top: thin solid rgba(2, 64, 184, 1);
   } 
+}
+
+@media (max-width: 375px){
+  .navbar-toggler{
+    margin-left: -20px;
+    margin-top: -10px;
+  }
+  .nav-btn{
+    padding: 6px 25px 6px 25px !important;
+  }
+  .nav-buttons p{
+    /* margin: 0 !important; */
+  }
 }
