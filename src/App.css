@@ -660,7 +660,7 @@ nav li a{
   
   /* Apply the animation to elements with the "slide-in" class */
   .slide-in {
-    animation: slideInFromBottom 0.5s ease-in-out forwards;
+    animation: slideInFromBottom 1s ease-in-out forwards;
   }
 
   /* community */
