@@ -396,6 +396,22 @@ nav li a{
   .fag .box h4{
     font-size: 15px;
   }
+  @keyframes slideInFromBottom {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Apply the animation to elements with the "slide-in" class */
+  .slide-in {
+    animation: slideInFromBottom 0.5s ease-in-out forwards;
+  }
+  
 
   /* community */
   .community{

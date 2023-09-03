@@ -21,7 +21,7 @@ function Ratings() {
                     return prevCount;
                 }
             });
-        }, 20);
+        }, 30);
 
         const stakeInterval = setInterval(() => {
             setStake((prevCount) => {
@@ -32,7 +32,7 @@ function Ratings() {
                     return prevCount;
                 }
             });
-        }, 20); // Adjust the interval duration as needed
+        }, 2); // Adjust the interval duration as needed
 
         const tokenInterval = setInterval(() => {
             setToken((prevCount) => {
@@ -43,7 +43,7 @@ function Ratings() {
                     return prevCount;
                 }
             });
-        }, 20); // Adjust the interval duration as needed
+        }, 2); // Adjust the interval duration as needed
 
         const bnbInterval = setInterval(() => {
             setBnb((prevCount) => {
@@ -54,7 +54,7 @@ function Ratings() {
                     return prevCount;
                 }
             });
-        }, 20); // Adjust the interval duration as needed
+        },8); // Adjust the interval duration as needed
 
         return () => {
             clearInterval(holderInterval);
