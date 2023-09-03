@@ -21,40 +21,40 @@ function Ratings() {
                     return prevCount;
                 }
             });
-        }, 30);
+        }, 90);
 
         const stakeInterval = setInterval(() => {
             setStake((prevCount) => {
                 if (prevCount < endStake) {
-                    return prevCount + 0.19; // Adjust the increment as needed
+                    return prevCount + 1; // Adjust the increment as needed
                 } else {
                     clearInterval(stakeInterval);
                     return prevCount;
                 }
             });
-        }, 2); // Adjust the interval duration as needed
+        }, 200); // Adjust the interval duration as needed
 
         const tokenInterval = setInterval(() => {
             setToken((prevCount) => {
                 if (prevCount < endToken) {
-                    return prevCount + 119.12; // Adjust the increment as needed
+                    return prevCount + 10; // Adjust the increment as needed
                 } else {
                     clearInterval(tokenInterval);
                     return prevCount;
                 }
             });
-        }, 2); // Adjust the interval duration as needed
+        }, 1); // Adjust the interval duration as needed
 
         const bnbInterval = setInterval(() => {
             setBnb((prevCount) => {
                 if (prevCount < endBnb) {
-                    return prevCount + 6.4; // Adjust the increment as needed
+                    return prevCount + 1; // Adjust the increment as needed
                 } else {
                     clearInterval(bnbInterval);
                     return prevCount;
                 }
             });
-        },8); // Adjust the interval duration as needed
+        }, 15); // Adjust the interval duration as needed
 
         return () => {
             clearInterval(holderInterval);
