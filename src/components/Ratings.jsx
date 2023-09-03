@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 
 function Ratings() {
     const endHolder = 182
-    const endStake = 30.41;
+    const endStake = 30.40;
     const endToken = 34846;
     const endBnb = 1024;
     const [holder, setHolder] = useState(0);
@@ -26,35 +26,35 @@ function Ratings() {
         const stakeInterval = setInterval(() => {
             setStake((prevCount) => {
                 if (prevCount < endStake) {
-                    return prevCount + 0.01; // Adjust the increment as needed
+                    return prevCount + 0.19; // Adjust the increment as needed
                 } else {
                     clearInterval(stakeInterval);
                     return prevCount;
                 }
             });
-        }, 50); // Adjust the interval duration as needed
+        }, 20); // Adjust the interval duration as needed
 
         const tokenInterval = setInterval(() => {
             setToken((prevCount) => {
                 if (prevCount < endToken) {
-                    return prevCount + 10; // Adjust the increment as needed
+                    return prevCount + 119.12; // Adjust the increment as needed
                 } else {
                     clearInterval(tokenInterval);
                     return prevCount;
                 }
             });
-        }, 100); // Adjust the interval duration as needed
+        }, 20); // Adjust the interval duration as needed
 
         const bnbInterval = setInterval(() => {
             setBnb((prevCount) => {
                 if (prevCount < endBnb) {
-                    return prevCount + 1; // Adjust the increment as needed
+                    return prevCount + 6.4; // Adjust the increment as needed
                 } else {
                     clearInterval(bnbInterval);
                     return prevCount;
                 }
             });
-        }, 30); // Adjust the interval duration as needed
+        }, 20); // Adjust the interval duration as needed
 
         return () => {
             clearInterval(holderInterval);
