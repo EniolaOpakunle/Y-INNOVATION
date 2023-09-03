@@ -128,6 +128,12 @@ nav li a{
 .roadmap .box div:last-child{
   margin-top: -40px;
 }
+.arrowUpside{
+  /* margin: -150px 200px 0 0; */
+  margin-top: -170px;
+  margin-left: 460px !important;
+  margin-bottom: 100px;
+} 
 
 /* team */
 .team{
@@ -155,8 +161,25 @@ nav li a{
 .fag .box{
   background-color: rgba(217, 217, 217, 0.28);
 }
-.fag .box h4{
+.fag .box button{
   font-size: 18px;
+  font-weight: 500;
+  color: var(--primaryColor);
+  text-transform: uppercase;
+  text-align: left;
+}
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.slide-in {
+  animation: slideInFromBottom 0.5s ease-in-out forwards;
 }
 
 /* community */
@@ -172,7 +195,6 @@ nav li a{
 .community .title2{
   font-weight: 500;
 }
-
 /* footer */
 .footer{
   background-image: linear-gradient(rgb(4, 3, 64), rgba(4, 3, 64, 0.836)),  url('./assets/images/footer.png');
@@ -267,7 +289,7 @@ nav li a{
   /* rating */
   .rating{
     background-color: rgba(4, 3, 64, 1);
-    padding: 100px 0 100px 0;
+    padding: 100px 0 80px 0;
     margin-top: -80px;
     
   }
@@ -287,7 +309,7 @@ nav li a{
   /* about */
   .about{
     background-color: var(--backgroundColor);
-    padding: 0px 0 50px 0;
+    padding: 0px 0  0;
     margin-top: -10px !important;
   }
   .about .background{
@@ -312,7 +334,7 @@ nav li a{
     padding: 0 !important;
   }
   .about .btn-div{
-    justify-content: space-between;
+    justify-content: space-between !important;
   }
   .about .btn1, .about .button1{
     padding: 6px 15px 6px 15px !important;
@@ -333,16 +355,16 @@ nav li a{
   /* roadmap */
   .roadmap{
     background-color: var(--backgroundColor) ;
-    padding: 60px 0 50px 0;
+    padding: 30px 0 50px 0 !important;
     margin-top: -10px;
   }
   .roadmap .title1 , .team .title1, .fag .title1{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700 !important;
   }
   .roadmap .title2 , .team .title2, .fag .title2{
     color: var(--secondaryColor1);
-    font-size: 18px;
+    font-size: 16px;
   }
   .roadmap .subtitle{
     color: var(--secondaryColor2);
@@ -358,6 +380,9 @@ nav li a{
   }
   .roadmap .box{
     margin-bottom: 40px;
+  }
+  .roadmap img{
+    display: none;
   }
 
   /* team */
@@ -393,8 +418,12 @@ nav li a{
   .fag .box{
     background-color: rgba(217, 217, 217, 0.28);
   }
-  .fag .box h4{
+  .fag .box button{
     font-size: 15px;
+    font-weight: 500;
+    color: var(--primaryColor);
+    text-transform: uppercase;
+    text-align: left;
   }
   @keyframes slideInFromBottom {
     0% {
@@ -406,8 +435,6 @@ nav li a{
       opacity: 1;
     }
   }
-  
-  /* Apply the animation to elements with the "slide-in" class */
   .slide-in {
     animation: slideInFromBottom 0.5s ease-in-out forwards;
   }
@@ -446,7 +473,7 @@ nav li a{
   } 
 }
 
-@media (max-width: 360px){
+@media (max-width: 375px){
   .navbar-toggler{
     margin-left: -20px;
     margin-top: -10px;
@@ -455,7 +482,7 @@ nav li a{
     padding: 6px 25px 6px 25px !important;
   }
   .about .btn1, .about .button1{
-    padding: 6px 10px 6px 10px !important;
+    padding: 6px 8px 6px 8px !important;
   }
 }
 
@@ -612,6 +639,9 @@ nav li a{
   .roadmap .box{
     margin-bottom: 40px;
   }
+  .roadmap img{
+    display: none;
+  }
 
   /* team */
   .team{
@@ -643,8 +673,12 @@ nav li a{
   .fag .box{
     background-color: rgba(217, 217, 217, 0.28);
   }
-  .fag .box h4{
+  .fag .box button{
     font-size: 18px;
+    font-weight: 500;
+    color: var(--primaryColor);
+    text-transform: uppercase;
+    text-align: left;
   }
   @keyframes slideInFromBottom {
     0% {
@@ -656,11 +690,8 @@ nav li a{
       opacity: 1;
     }
   }
-  
-  
-  /* Apply the animation to elements with the "slide-in" class */
   .slide-in {
-    animation: slideInFromBottom 0.5s ease-in-out forwards;
+    animation: slideInFromBottom 1s ease-in-out forwards;
   }
 
   /* community */

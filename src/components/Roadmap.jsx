@@ -1,4 +1,6 @@
 import React from 'react'
+import arrow from '../assets/images/arrow.png'
+import arrowUpside from '../assets/images/arrowUpside.png'
 
 function Roadmap() {
   return (
@@ -7,6 +9,14 @@ function Roadmap() {
           <p className='text-center title1'>ROADMAP</p>
           <h1 className='text-center title2'>HOW IT ALL STARTED</h1>
           <div className=''>
+            <div className='row'>
+                <div className='col-lg-6 d-flex justify-content-center'>
+                     <img src={arrow} alt="" className='w-50' />
+                </div>
+                <div className='col-lg-6 d-flex justify-content-center'>
+                     <img src={arrow} alt="" className='w-50' />
+                </div>
+            </div>
             <div className='row mt-5 '>
                 <div className='col-lg-3 col-md-6'>
                     <div className=" box rounded ">
@@ -70,6 +80,9 @@ function Roadmap() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='arrowUpside'>
+                <img src={arrowUpside} alt="" />
             </div>
           </div>
         </div>

@@ -33,11 +33,11 @@ function Navbar() {
                         <a class="nav-link title" href="/#fag">fag</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link title" href="/#community">en</a>
+                        <a class="nav-link title" href="/#community">Community</a>
                     </li>
                     </ul>
                     <div className='nav-buttons d-flex'> 
-                        <p className='mx-4'><button className='nav-btn btn px-5 button1' type="submit">JOIN US <img src={joinImg} alt="" /></button></p>
+                        <p className='mx-4'><a className='nav-btn btn px-5 button1' type="submit" href='https://t.me/Yinnovations' >JOIN US <img src={joinImg} alt="" /></a></p>
                         <p><button className='nav-btn btn px-5 button1'>STAKE <img src={stakeImg} alt="" style={{width: "19px"}} /></button></p>
                     </div>
                 </div>

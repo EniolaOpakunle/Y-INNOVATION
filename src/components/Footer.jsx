@@ -13,10 +13,10 @@ function Footer() {
             </div>
             <div className='d-flex social-media justify-content-center'>
                 <div className=''>
-                    <img src={twitter} alt="" />
+                    <a href="https://twitter.com/ThexkillerY"><img src={twitter} alt="" /></a>
                 </div>
                 <div>
-                    <img src={telegram} alt="" />
+                    <img src={telegram} alt="https://t.me/Yinnovations" />
                 </div>
                 <div>
                     <img src={youtube} alt="" />

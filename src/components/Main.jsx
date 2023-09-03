@@ -14,7 +14,7 @@ function Main() {
               <h1 className='text2 mt-3'>THIS IS WHERE <span className=''>CRYPTO</span> MEETS INNOVATION AND CHARITY</h1>
               <p className=' my-4 text-light text'>Y INNOVATIONS is not just a crypto project, it is a franchise made to revolutionize the crypto as we see it, bringing you real use case utilities and pivoting from the crypto markets into the stock markets</p>
               <div className='mt-4 d-flex'>
-                <button className='btn px-5 btn1 title text-light'>JOIN TELEGRAM <img src={joinImg} alt="" /></button>
+                <a className='btn px-5 btn1 title text-light ' href = "https://t.me/Yinnovations">JOIN TELEGRAM <img src={joinImg} alt=""/></a>
                 <button className='btn px-5 button1 mx-3 text-light title'>BUY NOW! <img src={buyImg} alt="" /></button>
               </div>
             </div>
