@@ -128,6 +128,12 @@ nav li a{
 .roadmap .box div:last-child{
   margin-top: -40px;
 }
+.arrowUpside{
+  /* margin: -150px 200px 0 0; */
+  margin-top: -170px;
+  margin-left: 460px !important;
+  margin-bottom: 100px;
+} 
 
 /* team */
 .team{
@@ -160,6 +166,20 @@ nav li a{
   font-weight: 500;
   color: var(--primaryColor);
   text-transform: uppercase;
+  text-align: left;
+}
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.slide-in {
+  animation: slideInFromBottom 0.5s ease-in-out forwards;
 }
 
 /* community */
@@ -174,6 +194,11 @@ nav li a{
 }
 .community .title2{
   font-weight: 500;
+}
+
+/* merchandise */
+.merchandise .section{
+  background-color: var(--backgroundColor) !important;
 }
 
 /* footer */
@@ -362,6 +387,9 @@ nav li a{
   .roadmap .box{
     margin-bottom: 40px;
   }
+  .roadmap img{
+    display: none;
+  }
 
   /* team */
   .team{
@@ -401,6 +429,7 @@ nav li a{
     font-weight: 500;
     color: var(--primaryColor);
     text-transform: uppercase;
+    text-align: left;
   }
   @keyframes slideInFromBottom {
     0% {
@@ -459,7 +488,7 @@ nav li a{
     padding: 6px 25px 6px 25px !important;
   }
   .about .btn1, .about .button1{
-    padding: 6px 10px 6px 10px !important;
+    padding: 6px 8px 6px 8px !important;
   }
 }
 
@@ -616,6 +645,9 @@ nav li a{
   .roadmap .box{
     margin-bottom: 40px;
   }
+  .roadmap img{
+    display: none;
+  }
 
   /* team */
   .team{
@@ -652,6 +684,7 @@ nav li a{
     font-weight: 500;
     color: var(--primaryColor);
     text-transform: uppercase;
+    text-align: left;
   }
   @keyframes slideInFromBottom {
     0% {

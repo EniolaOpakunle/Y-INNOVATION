@@ -1,5 +1,6 @@
 import React from 'react'
 import { useEffect } from 'react';
+import arrow from '../assets/images/arrow.png'
 
 
 function Fag() {

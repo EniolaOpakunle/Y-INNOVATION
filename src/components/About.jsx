@@ -50,7 +50,7 @@ function About() {
               </div>
             </div>
             <div className='btn-div d-flex mt-3'>
-              <button className='btn btn1 px-5 text-light'>JOIN TELEGRAM <img src= {joinImg} alt="" /></button>
+              <a className='btn btn1 px-5 text-light' href='https://twitter.com/ThexkillerY'>JOIN TELEGRAM <img src= {joinImg} alt="" /></a>
               <button className='btn px-5 mx-3 button1'>BUY NOW <img src={buyImg} alt="" /></button>
             </div>
           </div>
