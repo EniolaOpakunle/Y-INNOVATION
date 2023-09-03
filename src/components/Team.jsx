@@ -32,7 +32,7 @@ function Team() {
                             <img src={hecker} alt="" className='w-100' />
                         </div>
                         <div className="mt-3 text-center">
-                            <h2 className='title'>HECKER - Team (Co.)</h2>
+                            <h2 className='title'>HECKER - TEAM (CO)</h2>
                             <p>CrYpto enthusiasts from og bsc times 2020 , love helping out and finding true gems. Hardworker and always grinding for success. LFG</p>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ function Team() {
                         <img src={kleppelekker} alt="" className='w-100' />
                     </div>
                     <div className="mt-3 text-center">
-                        <h2 className='title'>KLEPPELEKKER - Comm Mana</h2>
+                        <h2 className='title'>KLEPPELEKKER - COMM. MANA.</h2>
                         <p>In cryptospace for few years already. Experience as part of teams also couple of years. As part of the Y-INNOVATION team we can 💣 this one.</p>
                     </div>
                 </div>
