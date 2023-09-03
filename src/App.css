@@ -175,7 +175,7 @@ nav li a{
   border-top: thin solid rgba(2, 64, 184, 1);
 }
 
-@media (min-width: 375px){
+@media (max-width: 415px){
   .size{
     width: 90% !important;
     margin: auto;
@@ -183,7 +183,6 @@ nav li a{
   /* navbar */
   .navbar-brand{
     margin-top: -20px !important;
-    /* margin-right: 10px; */
     color: var(--secondaryColor1);
   }
   .nav-section{
@@ -198,7 +197,6 @@ nav li a{
   }
   .navbar-nav{
     justify-content: space-between;
-    /* color: var(--primaryColor); */
   }
   .offcanvas{
     background-color: rgba(128, 128, 128, 0.185);
@@ -397,7 +395,7 @@ nav li a{
   } 
 }
 
-@media (max-width: 375px){
+@media (max-width: 360px){
   .navbar-toggler{
     margin-left: -20px;
     margin-top: -10px;
