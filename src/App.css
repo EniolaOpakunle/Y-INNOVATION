@@ -403,7 +403,7 @@ nav li a{
   .nav-btn{
     padding: 6px 25px 6px 25px !important;
   }
-  .nav-buttons p{
-    /* margin: 0 !important; */
+  .about .btn1, .about .button1{
+    padding: 6px 10px 6px 10px !important;
   }
 }
