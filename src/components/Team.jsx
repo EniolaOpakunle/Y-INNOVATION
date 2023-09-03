@@ -14,7 +14,7 @@ function Team() {
           <p className='text-center title1'>TEAM MEMBER</p>  
           <h1 className='text-center title2'>MEET THE CREW</h1>
           <div className='row mt-5 '>
-                <div className='col-lg-4 p-4'>
+                <div className='col-lg-4 p-4 col-md-6'>
                     <div className=' align-items-center box p-3'>
                         <div className="">
                             <img src={yop} alt="" className='w-100' />
@@ -26,7 +26,7 @@ function Team() {
                         </div>
                     </div>
                 </div>
-                <div className='col-lg-4 p-4'>
+                <div className='col-lg-4 p-4 col-md-6'>
                     <div className=' align-items-center box p-3'>
                         <div className="">
                             <img src={hecker} alt="" className='w-100' />
@@ -37,7 +37,7 @@ function Team() {
                         </div>
                     </div>
                 </div>
-            <div className='col-lg-4 p-4'>
+            <div className='col-lg-4 p-4 col-md-6'>
                 <div className=' align-items-center box p-3'>
                     <div className="">
                         <img src={kleppelekker} alt="" className='w-100' />
@@ -48,7 +48,7 @@ function Team() {
                     </div>
                 </div>
             </div>
-            <div className='col-lg-4 p-4'>
+            <div className='col-lg-4 p-4 col-md-6'>
                 <div className='align-items-center box p-3'>
                     <div className="">
                         <img src={busded} alt="" className='w-100' />
@@ -59,7 +59,7 @@ function Team() {
                     </div>
                 </div>
             </div>
-            <div className='col-lg-4 p-4'>
+            <div className='col-lg-4 p-4 col-md-6'>
                 <div className='align-items-center box p-3'>
                     <div className="">
                         <img src={james} alt="" className='w-100' />
@@ -82,7 +82,7 @@ function Team() {
                     </div>
                 </div>
             </div> */}
-            <div className='col-lg-4 p-4'>
+            <div className='col-lg-4 p-4 col-md-6'>
                 <div className='align-items-center box p-3'>
                     <div className="">
                         <img src={sham} alt="" className='w-100' />

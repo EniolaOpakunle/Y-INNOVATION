@@ -6,7 +6,7 @@ import github from '../assets/images/github.png'
 
 function Footer() {
   return (
-    <div className='footer background  w-100 text-light text-center'>
+    <div className='footer background w-100 text-light text-center'>
         <div className='size py-3'>
             <div>
                 <p>Y-INNOVATION</p>

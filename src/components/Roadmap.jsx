@@ -8,7 +8,7 @@ function Roadmap() {
           <h1 className='text-center title2'>HOW IT ALL STARTED</h1>
           <div className=''>
             <div className='row mt-5 '>
-                <div className='col-lg-3'>
+                <div className='col-lg-3 col-md-6'>
                     <div className=" box rounded ">
                         <div className='button1 px-3'>
                             <p className='subtitle'>PHASE 1</p>
@@ -25,7 +25,7 @@ function Roadmap() {
                         </div>
                     </div>
                 </div>
-                <div className='col-lg-3'>
+                <div className='col-lg-3 col-md-6'>
                     <div className=" box rounded">
                         <div className='button1 px-3'>
                             <p className='subtitle'>PHASE 2</p>
@@ -42,7 +42,7 @@ function Roadmap() {
                         </div>
                     </div>
                 </div>
-                <div className='col-lg-3'>
+                <div className='col-lg-3 col-md-6'>
                     <div className="box rounded">
                         <div className='button1 px-3'>
                             <p className='subtitle'>THE DEV</p>
@@ -57,7 +57,7 @@ function Roadmap() {
                         </div>
                     </div> 
                 </div>
-                <div className='col-lg-3'>
+                <div className='col-lg-3 col-md-6'>
                     <div className="box rounded">
                         <div className=' button1 px-3'>
                             <p className='subtitle'>THE LAUNCH</p>

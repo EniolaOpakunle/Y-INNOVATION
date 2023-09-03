@@ -9,7 +9,7 @@ function Main() {
         <Navbar/>
         <div className="main size pt-5">
           <div className='row mt-5 py-4'>
-            <div className='col-lg-5 py-4'>
+            <div className='col-lg-5  col-md-9 py-4'>
               <h3 className='text1'>OUR TOKEN IS <span className='text-light'>LIVE !!!</span></h3>
               <h1 className='text2 mt-3'>THIS IS WHERE <span className=''>CRYPTO</span> MEETS INNOVATION AND CHARITY</h1>
               <p className=' my-4 text-light text'>Y INNOVATIONS is not just a crypto project, it is a franchise made to revolutionize the crypto as we see it, bringing you real use case utilities and pivoting from the crypto markets into the stock markets</p>
