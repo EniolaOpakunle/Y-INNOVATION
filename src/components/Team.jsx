@@ -20,9 +20,9 @@ function Team() {
                             <img src={yop} alt="" className='w-100' />
                         </div>
                         <div className="mt-3 text-center">
-                            <h2 className='title '>YOP - LEAD DEV</h2>
-                            <p>With more than 14years experiences as fullstack engineer and entrepreneur in heart, always looking for challenges.
-                            Love the crypto world, and started Y INNOVATIONS just for fun but now its become a full time projects with a real market and business model.</p>
+                            <h2 className='title '>Alex - CEO</h2>
+                            <p>With a dream to change the WORLD(not just the crypto world), He started Y innovations tomake that dream a reality merging real life utilities to crypto and creating an entirely newecosystem. Alex's a builder and Y innnovations is his building, he's building a skyscraper.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -32,8 +32,10 @@ function Team() {
                             <img src={hecker} alt="" className='w-100' />
                         </div>
                         <div className="mt-3 text-center">
-                            <h2 className='title'>HECKER - TEAM (CO)</h2>
-                            <p>CrYpto enthusiasts from og bsc times 2020 , love helping out and finding true gems. Hardworker and always grinding for success. LFG</p>
+                            <h2 className='title'>Kalliroi - (TEAM)CMO</h2>
+                            <p>With years of experience working with big time MArketing agencies, She sees the potiential in 'Y
+
+                                </p>
                         </div>
                     </div>
                 </div>
@@ -43,8 +45,9 @@ function Team() {
                         <img src={kleppelekker} alt="" className='w-100' />
                     </div>
                     <div className="mt-3 text-center">
-                        <h2 className='title'>KLEPPELEKKER - COMM. MANA.</h2>
-                        <p>In cryptospace for few years already. Experience as part of teams also couple of years. As part of the Y-INNOVATION team we can 💣 this one.</p>
+                        <h2 className='title'>Stamatios - (TEAM)CFO</h2>
+                        <p>With first rate qualifications, Stamatios has been recruited into Y innovations ensuring amd
+                        monitoring all financial decisions made are highly beneficial to the company's goals.</p>
                     </div>
                 </div>
             </div>
@@ -54,8 +57,8 @@ function Team() {
                         <img src={busded} alt="" className='w-100' />
                     </div>
                     <div className="mt-3 text-center">
-                        <h2 className='title'>BUSDED - TEAM TWITTER</h2>
-                        <p>I'm a graphics designer. Being part of Y-INNOVATION allows me to shape the project's identity due to my passion , translating its potential into compelling graphics, fostering user understanding, and ultimately, contributing to the widespread adoption of this cryptocurrency, especially on BSC.</p>
+                        <h2 className='title'>Vincenzo - (TEAM)CIO</h2>
+                        <p>Withn over 4years experience in the crypto space, He has accumulated a network of the biggest names and people n the space. Hence why he was recruited as the CIO in Y Innovations.</p>
                     </div>
                 </div>
             </div>
@@ -65,8 +68,8 @@ function Team() {
                         <img src={james} alt="" className='w-100' />
                     </div>
                     <div className="mt-3 text-center">
-                        <h2 className='title'>JAMES - SOCIAL TWITTER</h2>
-                        <p>An avid crypto enthusiast who has experience and knowledge in marketing products via social media platforms.</p>
+                        <h2 className='title'>Frenna - (TEAM)DEV</h2>
+                        <p>One and only Frenna with over half a decade of experience, He is one of the best developers in crypto space right now, doubt you could find a more based developer than Frenna</p>
                     </div>
                 </div>
             </div>
@@ -89,7 +92,7 @@ function Team() {
                     </div>
                     <div className="mt-3 text-center">
                         <h2 className='title'>SHAM - TEAM PUSHER</h2>
-                        <p>I'm not just your average Joe, I'm the crypto wizard who's been enchanting the trading world for over 3 magical years! I've honed my skills in degens and tamed the wild crypto market with my trading prowess. I can read charts like a fortune teller and predict market trends with uncanny accuracy (well, most of the time). Join me on this exhilarating rollercoaster ride through the realms of cryptocurrencies as we seek fortune and adventure! Trust me, in this magical land of crypto, I'm the trader you want by your side.</p>
+                        <p>I'm not just your average Joe, I'm the crypto wizard who's been enchanting the trading world for over 3 magical years! I've honed my skills in degens and tamed the wild crypto market with my trading prowess. I can read charts like a fortune teller.</p>
                     </div>
                 </div>
             </div>

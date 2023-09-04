@@ -15,7 +15,7 @@ function Main() {
               <p className=' my-4 text-light text'>Y INNOVATIONS is not just a crypto project, it is a franchise made to revolutionize the crypto as we see it, bringing you real use case utilities and pivoting from the crypto markets into the stock markets</p>
               <div className='mt-4 d-flex'>
                 <a className='btn px-5 btn1 title text-light ' href = "https://t.me/Yinnovations">JOIN TELEGRAM <img src={joinImg} alt=""/></a>
-                <button className='btn px-5 button1 mx-3 text-light title'>BUY NOW! <img src={buyImg} alt="" /></button>
+                <a className='btn px-5 button1 mx-3 text-light title'  href='https://poocoin.app/tokens/0xc87138284116dc1b33c1cb2496beb3df73a53ee2' >BUY NOW! <img src={buyImg} alt="" /></a>
               </div>
             </div>
             <div className='col-lg-6 d-flex justify-content-end img-div align-items-center'>

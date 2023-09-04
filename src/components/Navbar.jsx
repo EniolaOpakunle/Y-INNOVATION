@@ -4,9 +4,9 @@ import stakeImg from '../assets/images/Vector.png'
 
 function Navbar() {
   return (
-    <section className='nav-section w-100'>
-        <nav class="navbar navbar-expand-lg fixed-top size">
-            <a class="navbar-brand" href="#">Y INNOVATION</a>
+    <section className='nav-section how'>
+        <nav class="navbar navbar-expand-lg fixed-top size yh  ">
+            <a className="navbar-brand me-9" href="#">Y INNOVATION</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
                 <span class="navbar-toggler-icon"></span>
             </button>

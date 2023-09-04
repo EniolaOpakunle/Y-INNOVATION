@@ -30,7 +30,7 @@ function About() {
             <div className='row utility pb-4'>
               <div className='col-6 p-1 utility1'>
                 <div className=" utility-div pt-1">
-                    <p><span className='title'>Staking Dappo: </span> This gives passive income for holding $Y</p>
+                    <p><span className='title'>Staking Dapp: </span> This gives passive income for holding $Y</p>
                 </div>
               </div>
               <div className='col-6 pr-1 pt-1 utility2'>
@@ -51,7 +51,8 @@ function About() {
             </div>
             <div className='btn-div d-flex mt-3'>
               <a className='btn btn1 px-5 text-light' href='https://t.me/Yinnovations'>JOIN TELEGRAM <img src= {joinImg} alt="" /></a>
-              <button className='btn px-5 mx-3 button1'>BUY NOW <img src={buyImg} alt="" /></button>
+              <a className='btn px-5 button1 mx-3 text-light title'  href='https://poocoin.app/tokens/0xc87138284116dc1b33c1cb2496beb3df73a53ee2' >BUY NOW! <img src={buyImg} alt="" /></a>
+
             </div>
           </div>
         </div>

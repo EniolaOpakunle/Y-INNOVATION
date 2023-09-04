@@ -77,13 +77,13 @@ function Ratings() {
             </div>
             <div className='col-lg-3 col-md-6'>
                 <div className=' text-center box rounded py-4 px-4 text-light'>
-                    <h2 className=''>{stake}</h2>
+                    <h2 className=''>Coming soon</h2>
                     <p className='title'>STAKED[%]</p>
                 </div>
             </div>
             <div className='col-lg-3 col-md-6'>
                 <div className='text-center box rounded py-4 px-4 text-light'>
-                    <h2 className='' >{token}</h2>
+                    <h2 className='' > <a className='btn fs-5'  href='https://www.dextools.io/app/en/bnb/pair-explorer/0x7bb9cEC01cfAde5AD7681E21462fF596B8Fae47f?utm_source=telegram&utm_medium=bubblebuybot&utm_campaign=bubblebuybot' >Check</a>  </h2>
                     <p className='title'>TOKEN MCAP [USD]</p>
                 </div>
             </div>

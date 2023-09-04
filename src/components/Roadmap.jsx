@@ -31,7 +31,7 @@ function Roadmap() {
                             <p>- Burn 2% of Supply</p>
                         </div>
                         <div className='d-flex justify-content-end px-3'>
-                            <p className='rounded-pill button1 p-2'>70%</p>
+                            <p className='rounded-pill button1 p-2'>10%</p>
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@ function Roadmap() {
                             <p>- Burn 5% of Supply</p>
                         </div>
                         <div className='d-flex justify-content-end px-3'>
-                            <p className='button1 p-2 rounded-circle'>70%</p>
+                            <p className='button1 p-2 rounded-circle'>30%</p>
                         </div>
                     </div>
                 </div>
@@ -63,7 +63,7 @@ function Roadmap() {
                             <p>we now have all our systems ready that include live chart, buybot, wallets bot, contract analysis, and much more...</p>  
                         </div>
                         <div className='d-flex justify-content-end px-3'>
-                            <p className=' button1 p-2 rounded-circle '>70%</p>
+                            <p className=' button1 p-2 rounded-circle '>65%</p>
                         </div>
                     </div> 
                 </div>
@@ -76,7 +76,7 @@ function Roadmap() {
                             <p>We just started, to be continued...</p>
                         </div>
                         <div className='d-flex justify-content-end px-3'>
-                            <p className='rounded-circle button1 p-2'>70%</p>
+                            <p className='rounded-circle button1 p-2'>75%</p>
                         </div>
                     </div>
                 </div>
