@@ -478,11 +478,6 @@ nav li a{
     margin-left: -20px;
     margin-top: -10px;
   }
-
-  .size{
-    width: 100% !important;
-    margin: auto;
-  }
   .nav-btn{
     padding: 6px 25px 6px 25px !important;
   }
@@ -490,18 +485,12 @@ nav li a{
     padding: 6px 8px 6px 8px !important;
   }
 }
-/* @media (max-width: 705px){
-  .yup{
-    margin-left: 40px;
-  }
-} */
 
 @media only screen and (max-width: 1000px) and (min-width: 768px) {
   .size{
-    width: 96% !important;
+    width: 90% !important;
     margin: auto;
   }
-  
   /* navbar */
   .navbar-brand{
     margin-top: -20px !important;
@@ -740,10 +729,6 @@ nav li a{
   color: rgba(92, 136, 251, 1)
 }
 
-
 .yh{
-  background-color:  rgba(4, 3, 64, 1) !important;
+  background-color: rgba(4, 3, 64, 1);
 }
-/* .how{
-  margin-right: 40px;
-} */
