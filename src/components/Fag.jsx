@@ -75,7 +75,7 @@ function Fag() {
         <div className='row mt-5 '>
             <div className='col-lg-6 py-2'>
                 <div className="box box1 p-3">
-                    <button class="btn"  data-bs-target="#collapseExample1"  onClick={togglebtn}  >WHAT IS Y INNOVATION?</button>
+                    <button class="btn"  data-bs-target="#collapseExample1"  onClick={togglebtn}  > <span   className={toggle?"yes":""}                         > WHAT IS Y INNOVATION?</span> </button>
                     {
                       toggle && <div className=" px-2" id="collapseExample1">
                       Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
@@ -89,7 +89,7 @@ function Fag() {
             </div>
             <div className='col-lg-6 py-2'>
                 <div className="box box1 p-3 ">
-                    <button className="btn" type="button" aria-expanded="false"onClick={togglebtn1}    aria-controls="collapseExample">why should we buy Y INNOVATION?</button>
+                    <button className="btn" type="button" aria-expanded="false"onClick={togglebtn1}    aria-controls="collapseExample">  <span className={toggle1?"yes":""}  >  why should we buy Y INNOVATION?</span> </button>
 
                     {
                       toggle1 &&
@@ -103,7 +103,10 @@ function Fag() {
             </div>
             <div className='col-lg-6 py-2'>
                 <div className="box box1 p-3">
-                    <button className="btn" onClick={togglebtn5}>what is the official launch?</button>
+                    <button className="btn" onClick={togglebtn5}> <span  className={toggle5?"yes":""}>
+                      what is the official launch?
+                      </span> 
+                      </button>
 
                     {
                       toggle5&&
@@ -116,7 +119,13 @@ function Fag() {
             </div>
             <div className='col-lg-6 py-2'>
                 <div className="box box1 p-3">
-                    <button className="btn" type="button" onClick={togglebtn2}  >how the live chat works in telegram ?</button>
+                    <button className="btn" type="button" onClick={togglebtn2}  >
+                      <span className={toggle2?"yes":""}>
+
+                      how the live chat works in telegram ?
+                      </span>
+                      
+                      </button>
                     {
                       toggle2 &&
                     <div className=" px-2" id="collax`pseExample4">
@@ -128,7 +137,12 @@ function Fag() {
             </div>
             <div className='col-lg-6 py-2'>
                 <div className="box box1 p-3">
-                    <button class="btn" type="button" aria-controls="collapseExample" onClick={togglebtn3} > how secure is this Y INNOVATION?</button>
+                    <button class="btn" type="button" aria-controls="collapseExample" onClick={togglebtn3} > 
+                     <span className={toggle3?"yes":""}>
+
+                    how secure is this Y INNOVATION?
+                     </span>
+                    </button>
 
                     {
                       toggle3 &&
@@ -141,7 +155,13 @@ function Fag() {
             </div>
             <div className='col-lg-6 py-2'>
                 <div className="box box1 p-3">
-                    <button class="btn" type="button"aria-controls="collapseExample" onClick={togglebtn4} >why is the name y innovation?</button>
+                    <button class="btn" type="button"aria-controls="collapseExample" onClick={togglebtn4} >
+                      <span  className={toggle4?"yes":""}>
+
+                      why is the name y innovation?
+                      </span>
+                      
+                      </button>
 
                     {
                       toggle4 &&

@@ -724,3 +724,7 @@ nav li a{
     border-top: thin solid rgba(2, 64, 184, 1);
   }
 }
+
+.yes{
+  color: rgba(92, 136, 251, 1)
+}
