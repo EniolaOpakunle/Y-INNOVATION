@@ -5,8 +5,9 @@ import joinImg from '../assets/images/join.png'
 
 function Main() {
   return (
-    <div className='header'>
+    <div className='w-100'>
         <Navbar/>
+    <div className='header'>
         <div className="main size pt-5">
           <div className='row mt-5 py-4'>
             <div className='col-lg-5  col-md-9 py-4'>
@@ -23,6 +24,7 @@ function Main() {
             </div>
           </div>
         </div>
+    </div>
     </div>
   )
 }

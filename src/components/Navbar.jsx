@@ -1,12 +1,13 @@
 import React from 'react'
 import joinImg from '../assets/images/join.png'
 import stakeImg from '../assets/images/Vector.png'
-
+import logo from '../assets/images/Y INNOVATIONS.png'
+import { Link } from 'react-router-dom'
 function Navbar() {
   return (
-    <section className='nav-section how'>
+    <section className='nav-section '>
         <nav class="navbar navbar-expand-lg fixed-top size yh  ">
-            <a className="navbar-brand me-9" href="#">Y INNOVATION</a>
+            <a className="navbar-brand me-9" href="#"> <img src={logo}  className='logo'  style={{width: "4.3vw"}} ></img>  </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -38,7 +39,7 @@ function Navbar() {
                     </ul>
                     <div className='nav-buttons d-flex'> 
                         <p className='mx-4'><a className='nav-btn btn px-5 button1' type="submit" href='https://t.me/Yinnovations' >JOIN US <img src={joinImg} alt="" /></a></p>
-                        <p><button className='nav-btn btn px-5 button1'>STAKE <img src={stakeImg} alt="" style={{width: "19px"}} /></button></p>
+                        <p><Link  to='/stake' className='nav-btn btn px-5 button1'>STAKE <img src={stakeImg} alt="" style={{width: "19px"}}  /> </Link></p>
                     </div>
                 </div>
             </div>
