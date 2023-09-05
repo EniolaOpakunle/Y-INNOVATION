@@ -2,10 +2,10 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 
 function Ratings() {
-    const endHolder = 182
+    const endHolder = 60
     const endStake = 30.40;
     const endToken = 34846;
-    const endBnb = 1024;
+    const endBnb = 1301;
     const [holder, setHolder] = useState(0);
     const [stake, setStake] = useState(0);
     const [token, setToken] = useState(0);
