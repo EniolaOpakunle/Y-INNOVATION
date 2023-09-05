@@ -58,9 +58,9 @@ function Roadmap() {
                             <p className='subtitle'>THE DEV</p>
                         </div>
                         <div className='p-4'> 
-                            <p>The development take us long time and this was huge challenges for us.</p>
-                            <p>We have faced a lot of problems during the development time between telegram bugs, not reliable private node and scam contracts ect ect.. but after 4 months of working time (full time, often until midnight)</p>
-                            <p>we now have all our systems ready that include live chart, buybot, wallets bot, contract analysis, and much more...</p>  
+                            <p>Y Innovation is not just a crypto project, it's a franchise/Company with aims to expand accross the globe</p>
+                            <p>My aim for Y is to serve real life utilities and give services tat assist our investors in making day to day activities easy</p>
+                            <p>We have so many utilitie prepared and in preparation some of themare Shill bot, staking Dapp, Token scanners ,charity organisations, mechandise store ,dex swep etc.</p>  
                         </div>
                         <div className='d-flex justify-content-end px-3'>
                             <p className=' button1 p-2 rounded-circle '>65%</p>

@@ -91,8 +91,8 @@ function Team() {
                         <img src={sham} alt="" className='w-100' />
                     </div>
                     <div className="mt-3 text-center">
-                        <h2 className='title'>SHAM - TEAM PUSHER</h2>
-                        <p>I'm not just your average Joe, I'm the crypto wizard who's been enchanting the trading world for over 3 magical years! I've honed my skills in degens and tamed the wild crypto market with my trading prowess. I can read charts like a fortune teller.</p>
+                        <h2 className='title'>JULIUS -  WEB DEV</h2>
+                        <p>I'm not just your average Julius, I'm one of the best web dev you can think of  </p>
                     </div>
                 </div>
             </div>
