@@ -4,7 +4,7 @@ import telegram from '../assets/images/telegram.png'
 import youtube from '../assets/images/youtube.png'
 import github from '../assets/images/github.png'
 
-function Footer() {
+function Footer({hand}) {
   return (
     <div className='footer background w-100 text-light text-center'>
         <div className='size py-3'>

@@ -4,7 +4,7 @@ import {useState} from 'react'
 import arrow from '../assets/images/arrow.png'
 
 
-function Fag() {
+function Fag({hand}) {
         const [toggle ,Settoogle]= useState(false)
         const togglebtn =()=>{
           Settoogle(prev=> !prev)

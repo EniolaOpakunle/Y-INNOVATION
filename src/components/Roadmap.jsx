@@ -2,7 +2,7 @@ import React from 'react'
 import arrow from '../assets/images/arrow.png'
 import arrowUpside from '../assets/images/arrowUpside.png'
 
-function Roadmap() {
+function Roadmap({hand}) {
   return (
     <div className='roadmap text-light' id='roadmap'>
         <div className='size'>

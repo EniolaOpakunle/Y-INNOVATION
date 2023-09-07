@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 
-function Ratings() {
+function Ratings({hand}) {
     const endHolder = 60
     const endStake = 30.40;
     const endToken = 34846;

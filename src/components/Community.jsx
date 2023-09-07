@@ -2,7 +2,7 @@ import React from 'react'
 import joinImg from '../assets/images/join.png'
 import buyImg from '../assets/images/Vector1.png'
 
-function Community() {
+function Community({hand}) {
   return (
     <div className=' community text-light  ' id='community'>
         <div className='size'>

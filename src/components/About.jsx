@@ -3,7 +3,7 @@ import buyImg from '../assets/images/Vector1.png'
 import joinImg from '../assets/images/join.png'
 import aboutImg from '../assets/images/about.png'
 
-function About() {
+function About({hand}) {
   return (
     <div className='about text-light' id='about'>
       <div className=' py-5 size' >

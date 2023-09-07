@@ -8,6 +8,7 @@ import Stake from './pages/Stake'
 function App() {
 
   return (
+    
     <>
     <Routes>
       <Route path='/' element = {<LandingPage/>} />

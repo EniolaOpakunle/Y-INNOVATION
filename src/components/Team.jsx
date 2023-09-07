@@ -6,7 +6,7 @@ import busded from '../assets/images/busded.png'
 import james from '../assets/images/james.png'
 import sham from '../assets/images/sham.png'
 
-function Team() {
+function Team({hand}) {
   return (
     <div>
       <div className='team text-light' id='team'>

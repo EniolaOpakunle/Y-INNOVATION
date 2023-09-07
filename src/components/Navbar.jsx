@@ -3,7 +3,19 @@ import joinImg from '../assets/images/join.png'
 import stakeImg from '../assets/images/Vector.png'
 import logo from '../assets/images/Y INNOVATIONS.png'
 import { Link } from 'react-router-dom'
-function Navbar() {
+
+
+import { useState } from 'react'
+
+
+function Navbar({hand}) {
+
+    const [toggle, setTogle]=useState(false)
+
+
+    const togglebtn =()=>{
+        setTogle(prev=>!prev)
+    }
   return (
     <section className='nav-section '>
         <nav class="navbar navbar-expand-lg fixed-top size yh  ">
@@ -36,10 +48,22 @@ function Navbar() {
                     <li class="nav-item">
                         <a class="nav-link title" href="/#community">Community</a>
                     </li>
+
+                 
                     </ul>
                     <div className='nav-buttons d-flex'> 
                         <p className='mx-4'><a className='nav-btn btn px-5 button1' type="submit" href='https://t.me/Yinnovations' >JOIN US <img src={joinImg} alt="" /></a></p>
                         <p><Link  to='/stake' className='nav-btn btn px-5 button1'>STAKE <img src={stakeImg} alt="" style={{width: "19px"}}  /> </Link></p>
+                        <p className='mx-4'><a className='nav-btn btn px-2 button1  position-relative' type="submit" onClick={togglebtn}  >LANGUAGE</a></p>
+                        {
+                            toggle && (
+                                <div className=' ms-2  mt-5 position-absolute top-75 end-0'>
+                                <p class="nav-link title"  type="submit" onClick={()=>hand('en')}  >en</p>
+                                <p class="nav-link title"  type="submit" onClick={()=>hand('gre')}  >Greece</p>
+                    
+                                </div>
+                            )
+                        }
                     </div>
                 </div>
             </div>
