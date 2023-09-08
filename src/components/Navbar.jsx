@@ -50,7 +50,7 @@ function Navbar({hand}) {
 
                  
                     </ul>
-                    <div className='nav-buttons gap-4  d-flex  '> 
+                    <div className='nav-buttons d-flex  '> 
                         <p className='mx-4 '><a className='nav-btn btn px-2 button1' type="submit" href='https://t.me/Yinnovations' >{t('nav.7')} <img src={joinImg} alt="" /></a></p>
                         <p className=''><Link  to='/stake' className='nav-btn btn px-2 button1'>{t('nav.8')} <img src={stakeImg} alt="" style={{width: "19px"}}  /> </Link></p>
                         <p className='mx-4'><a className='nav-btn btn px-2 button1  position-relative' type="submit" onClick={togglebtn}  >LANGUAGE</a></p>
