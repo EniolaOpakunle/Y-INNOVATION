@@ -1,5 +1,55 @@
 {
-    "Thanks":{
-        "1":"Thanks"
+    "home":{
+        "1":"OUR TOKEN IS",
+        "2":"LIVE",
+        "3":"THIS IS WHERE",
+        "4":"CRYPTO",
+        "5":"MEETS INNOVATION AND CHARITY",
+        "6":" is not just a crypto project, it is a franchise made to revolutionize the crypto as we see it, bringing you real use case utilities and pivoting from the crypto markets into the stock markets",
+        "7":"JOIN TELEGRAM",
+        "8":"BUY NOW!"
+    },
+    "nav":{
+        "1":"Home",
+        "2":"ABOUT",
+        "3":"roadmap",
+        "4":"team",
+        "5":"FAQ",
+        "6":"Community",
+        "7":"JOIN US",
+        "8":"STAKE"
+    },
+    "rate":{
+        "1":"Holders",
+        "2":"STAKED",
+        "3":"VOLUME TRADED"
+    },
+    "about":{
+        "1":"WHY WE STARTED",
+        "2":"ABOUT",
+        "3":"Our aim at Y INNOVATIONS is pretty simple, bringing real life uses caes and utilities to the digital world. Using it's proceeds to benefit our investors and having what is left over go into charity",
+        "4":"Y INNOVATIONS is a Non-profit organisation as our CEO is a philantropist and he created this firm to benefit its investors and the world as a whole",
+        "5":"Y INNOVATIONS is emulating companies like SpaceX, X(twitter) and a few other firms to become the next technologically advanced firm",
+        "6":"WHAT WE OFFER",
+        "7":"Y INNOVATIONS STARTING UTILITIES",
+        "8":"As we have said earlier, we are not your regular token that builds its utility to pump up price, we offer innovative utilities that solve real problems",
+        "9":"All our utilites basically aim to profit our investors and ensure they are endlessly rewarded for being a part of Y INNOVATIONS",
+        "10":"This gives passive income for holding $Y",
+        "11":"This help project advertise and get volume without relying on no volume callers",
+        "12":"We give out a part of our proceeds to charities to help better the lives of children",
+        "13":"With our daily burn mechanism, the value of $Y will rise"
+    },
+    "roadmap":{
+        "1":"Roadmap",
+        "2":"HOW IT ALL STARTED",
+        "3":"PHASE",
+        "4":"Website Launch",
+        "5":"Launch of Y Social Media",
+        "6":"Community Build Up",
+        "7":"Burn 2% of Supply",
+        "8":"  Website and Logo Update",
+        "9":"Making the Lp Stronger",
+        "10":"Burn 5% of Supply"
     }
+
 }

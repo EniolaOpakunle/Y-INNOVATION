@@ -1,7 +1,8 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-
+import { useTranslation } from 'react-i18next';
 function Ratings({hand}) {
+    const { t, i18n } = useTranslation();
     const endHolder = 60
     const endStake = 30.40;
     const endToken = 34846;
@@ -72,13 +73,13 @@ function Ratings({hand}) {
             <div className='col-lg-3 col-md-6'>
                 <div className=' text-center box rounded py-4 px-4 text-light'>
                     <h2 className=''>{holder}</h2>
-                    <p className='title'>HOLDERS</p>
+                    <p className='title'>{t('rate.1')}</p>
                 </div>
             </div>
             <div className='col-lg-3 col-md-6'>
                 <div className=' text-center box rounded py-4 px-4 text-light'>
-                    <h2 className=''>Coming soon</h2>
-                    <p className='title'>STAKED[%]</p>
+                    <h2 className=''>0</h2>
+                    <p className='title'>{t('rate.2')}[%]</p>
                 </div>
             </div>
             <div className='col-lg-3 col-md-6'>
@@ -90,7 +91,7 @@ function Ratings({hand}) {
             <div className='col-lg-3 col-md-6'>
                 <div className='text-center box rounded py-4 px-4 text-light'>
                     <h2 className=''>{bnb}</h2>
-                    <p className='title'>VOLUME TRADED [BNB]</p>
+                    <p className='title'>{t('rate.3')} [BNB]</p>
                 </div>
             </div>
         </div>

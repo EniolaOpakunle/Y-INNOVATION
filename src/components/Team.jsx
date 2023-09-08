@@ -5,8 +5,9 @@ import kleppelekker from '../assets/images/klep.png'
 import busded from '../assets/images/busded.png'
 import james from '../assets/images/james.png'
 import sham from '../assets/images/sham.png'
-
+import { useTranslation } from 'react-i18next';
 function Team({hand}) {
+    const { t, i18n } = useTranslation();
   return (
     <div>
       <div className='team text-light' id='team'>
