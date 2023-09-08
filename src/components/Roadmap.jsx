@@ -57,12 +57,12 @@ function Roadmap({hand}) {
                 <div className='col-lg-3 col-md-6'>
                     <div className="box rounded">
                         <div className='button1 px-3'>
-                            <p className='subtitle'>THE DEV</p>
+                            <p className='subtitle'>{t('roadmap.11')}</p>
                         </div>
                         <div className='p-4'> 
-                            <p>Y Innovation is not just a crypto project, it's a franchise/Company with aims to expand accross the globe</p>
-                            <p>My aim for Y is to serve real life utilities and give services tat assist our investors in making day to day activities easy</p>
-                            <p>We have so many utilitie prepared and in preparation some of themare Shill bot, staking Dapp, Token scanners ,charity organisations, mechandise store ,dex swep etc.</p>  
+                            <p> Y {t('roadmap.12')}</p>
+                            <p>{t('roadmap.13')}</p>
+                            <p>{t('roadmap.14')}</p>  
                         </div>
                         <div className='d-flex justify-content-end px-3'>
                             <p className=' button1 p-2 rounded-circle '>65%</p>
@@ -72,10 +72,10 @@ function Roadmap({hand}) {
                 <div className='col-lg-3 col-md-6'>
                     <div className="box rounded">
                         <div className=' button1 px-3'>
-                            <p className='subtitle'>THE LAUNCH</p>
+                            <p className='subtitle'>{t('roadmap.15')}</p>
                         </div>
                         <div className='p-4'>
-                            <p>We just started, to be continued...</p>
+                            <p> {t('roadmap.16')} ...</p>
                         </div>
                         <div className='d-flex justify-content-end px-3'>
                             <p className='rounded-circle button1 p-2'>75%</p>

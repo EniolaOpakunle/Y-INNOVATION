@@ -2,9 +2,13 @@ import React from 'react'
 import { useEffect } from 'react';
 import {useState} from 'react'
 import arrow from '../assets/images/arrow.png'
+import { useTranslation } from 'react-i18next';
+
 
 
 function Fag({hand}) {
+       const { t, i18n } = useTranslation();
+
         const [toggle ,Settoogle]= useState(false)
         const togglebtn =()=>{
           Settoogle(prev=> !prev)
@@ -70,12 +74,12 @@ function Fag({hand}) {
   return (
   <div className='fag text-light' id='fag'>
     <div className='size'>
-        <p className='text-center title1'>FREQUENTLY ASKED QUESTIONS</p>
-        <h1 className='text-center title2'>QUESTIONS AND ANSWERS</h1>
+        <p className='text-center title1'>{t("faq.1")}</p>
+        <h1 className='text-center title2'>{t("faq.2")}</h1>
         <div className='row mt-5 '>
             <div className='col-lg-6 py-2'>
                 <div className="box box1 p-3">
-                    <button class="btn"  data-bs-target="#collapseExample1"  onClick={togglebtn}  > <span   className={toggle?"yes":""}                         > WHAT IS Y INNOVATION?</span> </button>
+                    <button class="btn"  data-bs-target="#collapseExample1"  onClick={togglebtn}  > <span   className={toggle?"yes":""} > {t("faq.3")}</span> </button>
                     {
                       toggle && <div className=" px-2" id="collapseExample1">
                       Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
@@ -89,7 +93,7 @@ function Fag({hand}) {
             </div>
             <div className='col-lg-6 py-2'>
                 <div className="box box1 p-3 ">
-                    <button className="btn" type="button" aria-expanded="false"onClick={togglebtn1}    aria-controls="collapseExample">  <span className={toggle1?"yes":""}  >  why should we buy Y INNOVATION?</span> </button>
+                    <button className="btn" type="button" aria-expanded="false"onClick={togglebtn1}    aria-controls="collapseExample">  <span className={toggle1?"yes":""} >  {t('faq.4')}</span> </button>
 
                     {
                       toggle1 &&
@@ -104,7 +108,7 @@ function Fag({hand}) {
             <div className='col-lg-6 py-2'>
                 <div className="box box1 p-3">
                     <button className="btn" onClick={togglebtn5}> <span  className={toggle5?"yes":""}>
-                      what is the official launch?
+                    {t('faq.5')}
                       </span> 
                       </button>
 
@@ -121,8 +125,8 @@ function Fag({hand}) {
                 <div className="box box1 p-3">
                     <button className="btn" type="button" onClick={togglebtn2}  >
                       <span className={toggle2?"yes":""}>
-
-                      how the live chat works in telegram ?
+                      {t('faq.6')}
+                     
                       </span>
                       
                       </button>
@@ -140,7 +144,7 @@ function Fag({hand}) {
                     <button class="btn" type="button" aria-controls="collapseExample" onClick={togglebtn3} > 
                      <span className={toggle3?"yes":""}>
 
-                    how secure is this Y INNOVATION?
+                     {t('faq.6')} Y INNOVATION?
                      </span>
                     </button>
 
@@ -158,7 +162,7 @@ function Fag({hand}) {
                     <button class="btn" type="button"aria-controls="collapseExample" onClick={togglebtn4} >
                       <span  className={toggle4?"yes":""}>
 
-                      why is the name y innovation?
+                      {t('faq.7')}
                       </span>
                       
                       </button>

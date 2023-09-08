@@ -12,8 +12,8 @@ function Team({hand}) {
     <div>
       <div className='team text-light' id='team'>
         <div className='size text-left'>
-          <p className='text-center title1'>TEAM MEMBER</p>  
-          <h1 className='text-center title2'>MEET THE CREW</h1>
+          <p className='text-center title1'>{t('team.1')}</p>  
+          <h1 className='text-center title2'>{t('team.2')}</h1>
           <div className='row mt-5 '>
                 <div className='col-lg-4 p-4 col-md-6'>
                     <div className=' align-items-center box p-3'>
@@ -22,7 +22,7 @@ function Team({hand}) {
                         </div>
                         <div className="mt-3 text-center">
                             <h2 className='title '>Alex - CEO</h2>
-                            <p>With a dream to change the WORLD(not just the crypto world), He started Y innovations tomake that dream a reality merging real life utilities to crypto and creating an entirely newecosystem. Alex's a builder and Y innnovations is his building, he's building a skyscraper.
+                            <p>{t('team.3')}
                             </p>
                         </div>
                     </div>
@@ -34,9 +34,7 @@ function Team({hand}) {
                         </div>
                         <div className="mt-3 text-center">
                             <h2 className='title'>Kalliroi - (TEAM)CMO</h2>
-                            <p>With years of experience working with big time MArketing agencies, She sees the potiential in 'Y
-
-                                </p>
+                            <p>{t('team.4')} </p>
                         </div>
                     </div>
                 </div>
@@ -47,8 +45,7 @@ function Team({hand}) {
                     </div>
                     <div className="mt-3 text-center">
                         <h2 className='title'>Stamatios - (TEAM)CFO</h2>
-                        <p>With first rate qualifications, Stamatios has been recruited into Y innovations ensuring amd
-                        monitoring all financial decisions made are highly beneficial to the company's goals.</p>
+                        <p>{t('team.5')}</p>
                     </div>
                 </div>
             </div>
@@ -59,7 +56,7 @@ function Team({hand}) {
                     </div>
                     <div className="mt-3 text-center">
                         <h2 className='title'>Vincenzo - (TEAM)CIO</h2>
-                        <p>Withn over 4years experience in the crypto space, He has accumulated a network of the biggest names and people n the space. Hence why he was recruited as the CIO in Y Innovations.</p>
+                        <p>{t('team.6')}</p>
                     </div>
                 </div>
             </div>
@@ -70,22 +67,11 @@ function Team({hand}) {
                     </div>
                     <div className="mt-3 text-center">
                         <h2 className='title'>Frenna - (TEAM)DEV</h2>
-                        <p>One and only Frenna with over half a decade of experience, He is one of the best developers in crypto space right now, doubt you could find a more based developer than Frenna</p>
+                        <p>{t('team.7')}</p>
                     </div>
                 </div>
             </div>
-            {/* <div className='col-lg-6  p-4'>
-                <div className='row align-items-center box p-3'>
-                    <div className="col-lg-6 col-md-6">
-                        <img src={tommy} alt="" className='w-100' />
-                    </div>
-                    <div className="col-lg-6 col-md-6 mt-3">
-                        <h2>TOMMY</h2>
-                        <p>Social twitter</p>
-                        <p>As a crypto lover, I am passionate about the world of cryptocurrencies. I have been actively involved in the crypto community, staying updated with the latest news, trends, and advancements. I enjoy exploring different blockchain projects, understanding their innovations, and evaluating their potential for future growth.</p>
-                    </div>
-                </div>
-            </div> */}
+    
             <div className='col-lg-4 p-4 col-md-6'>
                 <div className='align-items-center box p-3'>
                     <div className="">
@@ -93,7 +79,7 @@ function Team({hand}) {
                     </div>
                     <div className="mt-3 text-center">
                         <h2 className='title'>JULIUS -  WEB DEV</h2>
-                        <p>I'm not just your average Julius, I'm one of the best web dev you can think of  </p>
+                        <p> {t('team.8')} </p>
                     </div>
                 </div>
             </div>

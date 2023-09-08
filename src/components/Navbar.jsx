@@ -51,12 +51,12 @@ function Navbar({hand}) {
                  
                     </ul>
                     <div className='d-flex-col  d-lg-flex   '> 
-                        <p className='mx-4  me-sm-3 mt-sm-4 mt-lg-0'><a className='nav-btn btn px-2 button1' type="submit" href='https://t.me/Yinnovations' >{t('nav.7')} <img src={joinImg} alt="" /></a></p>
-                        <p className='mt-sm-4 me-sm-4 mt-lg-0'><Link  to='/stake' className='nav-btn btn px-2 button1'>{t('nav.8')} <img src={stakeImg} alt="" style={{width: "19px"}}  /> </Link></p>
+                        <p className='mx-4  mt-sm-4 mt-lg-0'><a className='nav-btn btn px-2 button1' type="submit" href='https://t.me/Yinnovations' >{t('nav.7')} <img src={joinImg} alt="" /></a></p>
+                        <p className='mt-sm-4  mt-lg-0'><Link  to='/stake' className='nav-btn btn px-2 button1'>{t('nav.8')} <img src={stakeImg} alt="" style={{width: "19px"}}  /> </Link></p>
                         <p className='mx-4 mt-sm-4 mt-lg-0'><a className='nav-btn btn px-2 button1  position-relative' type="submit" onClick={togglebtn}  >LANGUAGE</a></p>
                         {
                             toggle && (
-                                <div className=' ms-2 mt-3  position-absolute top-50 end-0'>
+                                <div className=' wah   mt-3  position-absolute top-50 end-0  top-sm-50 end-sm-0  '  onClick={togglebtn}>
                                 <p class="nav-link title"  type="submit" onClick={()=>hand('en')}  >en</p>
                                 <p class="nav-link title"  type="submit" onClick={()=>hand('gre')}  >Greece</p>
                     
