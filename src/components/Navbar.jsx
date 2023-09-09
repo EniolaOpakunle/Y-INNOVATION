@@ -1,12 +1,24 @@
 import React from 'react'
 import joinImg from '../assets/images/join.png'
 import stakeImg from '../assets/images/Vector.png'
+import logo from '../assets/images/Y INNOVATIONS.png'
+import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next';
+import { useState } from 'react'
 
-function Navbar() {
+
+function Navbar({hand}) {
+    const { t, i18n } = useTranslation();
+    const [toggle, setTogle]=useState(false)
+
+
+    const togglebtn =()=>{
+        setTogle(prev=>!prev)
+    }
   return (
-    <section className='nav-section w-100'>
-        <nav class="navbar navbar-expand-lg fixed-top size">
-            <a class="navbar-brand" href="#">Y INNOVATION</a>
+    <section className='nav-section '>
+        <nav class="navbar navbar-expand-lg fixed-top size yh  ">
+            <a className="navbar-brand me-9" href="#"> <img src={logo}  className='logo'  style={{width: "4.3vw"}} ></img>  </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -18,27 +30,39 @@ function Navbar() {
                 <div class="offcanvas-body">
                     <ul class="navbar-nav flex-grow-1 pe-3">
                     <li class="nav-item">
-                        <a class="nav-link active title" aria-current="page" href="/#">home</a>
+                        <a class="nav-link active title" aria-current="page" href="/#">{t('nav.1')}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link title" href="/#about" >about</a>
+                        <a class="nav-link title" href="/#about" >{t('nav.2')}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link title" href="/#roadmap" >roadmap</a>
+                        <a class="nav-link title" href="/#roadmap" >{t('nav.3')}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link title" href="/#team">team</a>
+                        <a class="nav-link title" href="/#team">{t('nav.4')}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link title" href="/#fag">fag</a>
+                        <a class="nav-link title" href="/#fag">{t('nav.5')}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link title" href="/#community">Community</a>
+                        <a class="nav-link title" href="/#community">{t('nav.6')}</a>
                     </li>
+
+                 
                     </ul>
-                    <div className='nav-buttons d-flex'> 
-                        <p className='mx-4'><a className='nav-btn btn px-5 button1' type="submit" href='https://t.me/Yinnovations' >JOIN US <img src={joinImg} alt="" /></a></p>
-                        <p><button className='nav-btn btn px-5 button1'>STAKE <img src={stakeImg} alt="" style={{width: "19px"}} /></button></p>
+                    <div className='d-flex-col  d-lg-flex   '> 
+                        <p className='mx-4  mt-sm-4 mt-lg-0'><a className='nav-btn btn px-2 button1' type="submit" href='https://t.me/Yinnovations' >{t('nav.7')} <img src={joinImg} alt="" /></a></p>
+                        <p className='mt-sm-4  mt-lg-0'><Link  to='/stake' className='nav-btn btn px-2 button1'>{t('nav.8')} <img src={stakeImg} alt="" style={{width: "19px"}}  /> </Link></p>
+                        <p className='mx-4 mt-sm-4 mt-lg-0'><a className='nav-btn btn px-2 button1  position-relative' type="submit" onClick={togglebtn}  >LANGUAGE</a></p>
+                        {
+                            toggle && (
+                                <div className=' wah   mt-3  position-absolute top-50 end-0  top-sm-50 end-sm-0  '  onClick={togglebtn}>
+                                <p class="nav-link title"  type="submit" onClick={()=>hand('en')}  >en</p>
+                                <p class="nav-link title"  type="submit" onClick={()=>hand('gre')}  >Greece</p>
+                    
+                                </div>
+                            )
+                        }
                     </div>
                 </div>
             </div>

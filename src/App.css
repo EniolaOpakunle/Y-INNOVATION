@@ -478,6 +478,33 @@ nav li a{
     margin-left: -20px;
     margin-top: -10px;
   }
+
+  .come{
+    background-color: rgba(4, 3, 64, 1);
+    text-align: start;
+    color: rgba(92, 136, 251, 1);
+    font-size: 30px !important;
+    /* font-weight: 700; */
+    margin-right: auto;
+  
+  }
+
+  .julz{
+    color: white;
+    /* margin-top: 200px; */
+  }
+
+  .stake{
+  
+    width: 30%;
+    height: 60vh;
+    background-color: rgba(4, 3, 64, 1);
+  }
+ 
+
+  .logo{
+    width: 15.5vw !important;
+  }
   .nav-btn{
     padding: 6px 25px 6px 25px !important;
   }
@@ -723,4 +750,35 @@ nav li a{
   .attribution{
     border-top: thin solid rgba(2, 64, 184, 1);
   }
+}
+
+.yes{
+  color: rgba(92, 136, 251, 1)
+}
+
+.yh{
+  background-color: rgba(4, 3, 64, 1);
+}
+
+
+.julz{
+  color: white;
+  text-align: center;
+  margin-top: 400px;
+}
+.come{
+  background-color: rgba(4, 3, 64, 1);
+  text-align: center;
+  color: rgba(92, 136, 251, 1);
+  font-size: 70px;
+  font-weight: 700;
+
+}
+.stake{
+  width: 100%;
+  height: 50vh;
+  background-color: rgba(4, 3, 64, 1);
+}
+.hey{
+  margin-top: -400px;
 }
